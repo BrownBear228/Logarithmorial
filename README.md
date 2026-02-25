@@ -41,9 +41,9 @@
 ### Ключевые свойства
 
 - \(\operatorname{Log}(0) = 1\) (пустое произведение).
-- \(\operatorname{Log}(1) = \ln2 \approx 0.693147\).
-- \(\operatorname{Log}(2) = \ln2\cdot\ln3 \approx 0.7615\).
-- \(\operatorname{Log}(3) = \ln2\cdot\ln3\cdot\ln4 \approx 1.05566\).
+- \(\operatorname{Log}(1) = \ln 2 \approx 0.693147\).
+- \(\operatorname{Log}(2) = \ln 2 \cdot \ln 3 \approx 0.7615\).
+- \(\operatorname{Log}(3) = \ln 2 \cdot \ln 3 \cdot \ln 4 \approx 1.05566\).
 - Функция имеет единственный минимум при  
   \(x_{\min} \approx 1.1887199999982840381562709808349609375\),  
   где \(\operatorname{Log}(x_{\min}) \approx 0.68847985839830827536900414997944608331\).
@@ -87,6 +87,9 @@
 ### Compilation
 
 Скомпилируйте программу любой стандартной командой, например:
+
+```bash
+g++ -std=c++11 -O2 logarithmorial.cpp -o logarithmorial
 
 ```bash
 g++ -std=c++11 -O2 logarithmorial.cpp -o logarithmorial

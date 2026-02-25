@@ -1,4 +1,4 @@
-# Logarithmorial
+# Логарифмориал
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![C++11](https://img.shields.io/badge/C%2B%2B-11-blue.svg)
@@ -13,7 +13,7 @@ ${Log}(n) = \prod_{k=1}^{n} \ln(k+1) \quad\text{(для натуральных }
 
 ---
 
-## What is Logarithmorial?
+## Что такое Логарифмориал?
 
 Логарифмориал (logarithmorial) – это коммониал (обобщение понятия суммы/произведения) с операцией умножения и функцией-операндом $\(\ln(k+1)\)$:
 

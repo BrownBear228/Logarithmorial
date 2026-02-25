@@ -7,7 +7,7 @@
 **Logarithmorial** – это реализация на C++ новой специальной функции  
 
 \[
-\operatorname{Log}(x) = \prod_{k=1}^{\infty} \ln(k+1) \quad\text{(для натуральных }x\text{)}
+$operatorname{Log}(x) = \prod_{k=1}^{\infty} \ln(k+1) \quad\text{(для натуральных }x\text{)}$
 \]
 
 и её аналитического продолжения на все вещественные (и в перспективе комплексные) числа.  

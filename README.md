@@ -26,18 +26,17 @@ $ln{Log}(x) = \sum_{k=1}^{\infty} \bigl( \ln\ln(k+1) - \ln\ln(k+x) \bigr) + \tex
 которое эффективно суммируется методом конечных разностей (ряд Ньютона).  
 Полученная функция удовлетворяет функциональному уравнению  
 
-\[
-\operatorname{Log}(x+1) = \operatorname{Log}(x)\,\ln(x+2)
-\]
 
-и является гладкой на \((0,\infty)\).
+${Log}(x+1) = \operatorname{Log}(x)\,\ln(x+2)$
+
+и является гладкой на $\((0,\infty)\)$.
 
 ### Ключевые свойства
 
-- \(\operatorname{Log}(0) = 1\) (пустое произведение).
-- \(\operatorname{Log}(1) = \ln 2 \approx 0.693147\).
-- \(\operatorname{Log}(2) = \ln 2 \cdot \ln 3 \approx 0.7615\).
-- \(\operatorname{Log}(3) = \ln 2 \cdot \ln 3 \cdot \ln 4 \approx 1.05566\).
+- $\(\operatorname{Log}(0) = 1\) (пустое произведение)$.
+- $\(\operatorname{Log}(1) = \ln 2 \approx 0.693147\)$.
+- $\(\operatorname{Log}(2) = \ln 2 \cdot \ln 3 \approx 0.7615\)$.
+- $\(\operatorname{Log}(3) = \ln 2 \cdot \ln 3 \cdot \ln 4 \approx 1.05566\)$.
 - Функция имеет единственный минимум при  
   \(x_{\min} \approx 1.1887199999982840381562709808349609375\),  
   где \(\operatorname{Log}(x_{\min}) \approx 0.68847985839830827536900414997944608331\).

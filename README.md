@@ -87,6 +87,12 @@ $S(x) = \exp( \sum_{k=1}^{\infty} \bigl( {f_c}(k) - {f_c}(k+x) \bigr) + \sum_{k=
 
 ${Log}(x) = \exp( \sum_{k=1}^{\infty} \bigl( \ln\ln(k+1) - \ln\ln(k+x+1) \bigr) + \sum_{k=1}^{\infty} \binom{x}{k} \Delta^{k-1} \ln\ln(N+1))$
 
+### Производная
+
+Но постойте, в класс Logarithmorial добавлена реализации производной. А как найти производную для продукториала? Ответ кроется также в суммориале. Давайте посмотрим, что будет, если взять производную от суммориала.
+
+$\frac{\partial{\sum_{k=1}^{n} {f_c}(k}}{\partial{x}} =\sum_{k=1}^{n} \frac{\partial{{f_c}(k)}{\partial{x}}$
+
 ---
 
 ## Implementation details

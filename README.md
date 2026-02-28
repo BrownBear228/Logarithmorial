@@ -54,7 +54,8 @@ ${Log}(x+1) = {Log}(x)\ln(x+2)$
 
 Например:
 
-- $\prod_{k=1}^{n} a \implies a^n \implies a^z $
+- $\prod_{k=1}^{n} a \implies a^n \implies a^z$
+- $\prod_{k=1}^{n} a^k \implies \sqrt{a^{n(n+1)}} \implies \sqrt{a^{z(z+1)}}$
 
 ---
 

@@ -91,7 +91,7 @@ ${Log}(x) = \exp( \sum_{k=1}^{\infty} \bigl( \ln\ln(k+1) - \ln\ln(k+x+1) \bigr) 
 
 Но постойте, в класс Logarithmorial добавлена реализации производной. А как найти производную для продукториала? Ответ кроется также в суммориале. Давайте посмотрим, что будет, если взять производную от суммориала.
 
-$\frac{\partial{\sum_{k=1}^{n} {f_c}(k)}{\partial{x}}} =\sum_{k=1}^{n} \frac{\partial{{f_c}(k)}{\partial{x}}}$
+$\frac{\partial{\sum_{k=1}^{n} {f_c}(k)}}{\partial{x}} =\sum_{k=1}^{n} \frac{\partial{{f_c}(k)}}{\partial{x}}$
 
 ---
 

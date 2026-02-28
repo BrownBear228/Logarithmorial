@@ -56,6 +56,7 @@ ${Log}(x+1) = {Log}(x)\ln(x+2)$
 
 - $\prod_{k=1}^{n} a \implies a^n \implies a^z$
 - $\prod_{k=1}^{n} a^k \implies \sqrt{a^{n(n+1)}} \implies \sqrt{a^{z(z+1)}}$
+- $\prod_{k=1}^{n} ak + b \implies a^n (b/a)!^{-1} (n +  b/a)! \implies a^z$
 
 ---
 

@@ -93,6 +93,10 @@ ${Log}(x) = \exp( \sum_{k=1}^{\infty} \bigl( \ln\ln(k+1) - \ln\ln(k+x+1) \bigr) 
 
 $S_f'(x) = S_{f'}(x) + \gamma_{f}$
 
+$ln{f!}'(x) = S_{f'}(x) + \gamma_{f}$
+
+${f_!}'(x) = {f_!}(x)(S_{f'}(x) + \gamma_{f})$
+
 ---
 
 ## Implementation details

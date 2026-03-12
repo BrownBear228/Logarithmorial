@@ -152,11 +152,9 @@ public:
         preComputedLogDer = preComputedLogDerValues[arg - 1];
         preComputedLogSecDer = preComputedLogSecDerValues[arg - 1];
 
-        derivativeConstant = functionOperandFunc<double>(static_cast<double>(arg))
-            + 0.5 * derivativeOperandFunc<double>(static_cast<double>(arg)) - preComputedLogDer;
+        derivativeConstant = functionOperandFunc<double>(static_cast<double>(arg)) - preComputedLogDer;
 
-        secondDerivativeConstant = derivativeOperandFunc<double>(static_cast<double>(arg))
-            + 0.5 * secondDerivativeOperandFunc<double>(static_cast<double>(arg)) - preComputedLogSecDer;
+        secondDerivativeConstant = derivativeOperandFunc<double>(static_cast<double>(arg)) - preComputedLogSecDer;
 
         findFiniteDifferences();
     }

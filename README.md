@@ -95,7 +95,13 @@ $\frac{\partial}{\partial z} \sum_{k=1}^{z} {f}(k) = \sum_{k=1}^{z} \frac{\parti
 
 где $\gamma_{f}$ можно найти по формуле
 
-$\gamma_{f} = \lim$
+$\gamma_{f} = \displaystyle{\lim_{N \to \infty}} {f}(N) - \sum_{k=1}^{N} \frac{\partial}{\partial z} {f}(k)$
+
+Что для ускорения сходимости можно переписать как
+
+$\gamma_{f} = \displaystyle{\lim_{N \to \infty}} {f}(N) + \frac{{f'}(N)}{2} - \sum_{k=1}^{N} \frac{\partial}{\partial z} {f}(k)$
+
+Производная продукториала находится с помощью логарифмической производной по формуле
 
 ${f_!}'(x) = {f_!}(x)(S_{f'}(x) + \gamma_{f})$
 
